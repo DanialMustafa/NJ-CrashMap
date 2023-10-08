@@ -5,7 +5,7 @@ import Passaic_Traffic from "../assets/traffic_plots/Passaic_Traffic.png"
 import Passaic_Crash from "../assets/crash_plots/Passaic_Crash.png"
 
 
-const Pasiac = () =>{
+const Passaic = () =>{
     return(
         <div>
             <SButton onClick={() => {window.location.href = "/"}}>HOME</SButton>
@@ -16,4 +16,4 @@ const Pasiac = () =>{
     )
 }
 
-export default Pasiac;
+export default Passaic;

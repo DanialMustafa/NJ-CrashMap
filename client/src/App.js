@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from "./pages/Main";
 import Atlantic from './pages/Atlantic';
 import Bergen from './pages/Bergen';
-import Pasiac from './pages/Pasiac';
+import Passaic from './pages/Passaic';
 import Sussex from './pages/Sussex';
 import Morris from './pages/Morris';
 import Essex from './pages/Essex';
@@ -30,7 +30,7 @@ const App = () => {
           <Route index element = {<Main />}/>
           <Route path='/Atlantic' element = {<Atlantic/>} />
           <Route path='/Bergen' element = {<Bergen/>} />
-          <Route path='/Pasiac' element = {<Pasiac/>} />
+          <Route path='/Passaic' element = {<Passaic/>} />
           <Route path='/Sussex' element = {<Sussex/>} />
           <Route path='/Morris' element = {<Morris/>} />
           <Route path='/Essex' element = {<Essex/>} />
